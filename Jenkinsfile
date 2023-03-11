@@ -21,7 +21,7 @@ pipeline {
         }
         stage('Test'){
             steps {
-                 echo 'Not Empty'
+                 echo 'Empty'
             }
         }
         stage('Deploy') {
